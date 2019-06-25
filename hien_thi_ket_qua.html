@@ -5,12 +5,14 @@
     <title>Title</title>
 </head>
 <body>
-<button type="button" onclick="alert('Xin chào!') " on id="show">Click me</button>
+<button type="button" onclick="showmessage() ">Click me</button>
+<p id="show">Hello</p>
 <script>
-function showmessage() {
-    alert('Xin chào');
-    document.getElementById(show).innerHTML='Tôi là Cường';
-}
+    function showmessage() {
+        alert('Xin chào');
+        document.getElementById("show").innerHTML = 'Tôi là Cường';
+        // document.write('Hello');
+    }
 
 </script>
 </body>
